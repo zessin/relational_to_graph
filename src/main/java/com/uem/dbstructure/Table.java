@@ -27,10 +27,18 @@ public class Table {
         this.name = name;
     }
 
+    /**
+     * Tells whether a Table is a many to many relationship table or not
+     * @return True if the Table is a many to many relationship table, false otherwise
+     */
     public Boolean isRelationshipTable() {
         return relationshipTable;
     }
 
+    /**
+     * Sets whether a Table is a many to many relationship table or not
+     * @param relationshipTable The value to be set
+     */
     public void setRelationshipTable(Boolean relationshipTable) {
         this.relationshipTable = relationshipTable;
     }
